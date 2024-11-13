@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/taskTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Título"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/taskDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Detalhes"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/taskDueDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data de Vencimento"
+        android:textSize="16sp" />
+</LinearLayout>
